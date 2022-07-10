@@ -1,0 +1,44 @@
+.Aboutcontainer
+{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  margin-top: 80px;
+}
+
+.itembox
+{
+  height: 570px;
+}
+
+.Aboutcontainer #box1
+{
+  width: 760px;
+  background-image: url(img/about2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Aboutcontainer #box2
+{
+  width: 864px;
+  height: fit-content;
+  color: white;
+}
+
+.Aboutcontainer h2
+{
+  text-decoration: underline;
+  font-size: 30px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 5px;
+}
+
+
+.Aboutcontainer p
+{
+  margin: 8px;
+  font-size: 18px;
+  font-family: cursive;
+}
